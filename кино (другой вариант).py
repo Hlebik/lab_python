@@ -21,7 +21,7 @@ def full_price(movie, ticket_amount):
             return 350*ticket_amount
     elif movie == "Пернатая банда":
         if time == "10 часов":
-            return 350*ticket_anount
+            return 350*ticket_amount
         elif time == "14 часов":
             return 450*ticket_amount
         elif time == "18 часов":
