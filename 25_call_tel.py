@@ -1,4 +1,4 @@
-def price(kod,time):
+def price(kod, time):
     if kod == 343:
         return time * 15
     elif kod == 381:
