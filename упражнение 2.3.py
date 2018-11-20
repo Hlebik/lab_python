@@ -3,12 +3,13 @@
 Реализовать в виде вызова
 собственной функции. """
 
-name = int(input("Введите число:"))
-def fun(x):
-    if x%2 == 1:
+
+def fun(number):
+    if number%2 == 1:
         return "odd"
     else:
         return "even"
 
-print ("Ваше число является:", fun(name))
+number = int(input("Введите число:"))
+print ("Ваше число является:", fun(number))
 
