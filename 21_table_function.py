@@ -9,7 +9,6 @@ def fun_fact(number):
         return "Hg- Ртуть"
     else:
         return "Неверные исходные данные"
-
 number = int(input("Введите номер химического элемента: "))
 print("Химический элемент: ", fun_fact(number))
         
