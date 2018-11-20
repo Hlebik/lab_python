@@ -1,9 +1,3 @@
-print ("Программа для подсчета стоимости билетов в кино.")
-movie = input ("Выберите фильм: ")
-date = input ("Выберите дату: ")
-time = input ("Выберите время: ")
-ticket_amount = int(input ("Укажите количество билетов: "))
-
 def full_price_1(movie, ticket_amount):
     if movie == "Пятница":
         if time == "12 часов":
@@ -26,6 +20,11 @@ def full_price_1(movie, ticket_amount):
             return 450*ticket_amount
         elif time == "18 часов":
             return 450*ticket_amount
+print ("Программа для подсчета стоимости билетов в кино.")
+movie = input ("Выберите фильм: ")
+date = input ("Выберите дату: ")
+time = input ("Выберите время: ")
+ticket_amount = int(input ("Укажите количество билетов: "))
 
         
 tmp_price= full_price_1(movie, ticket_amount)
