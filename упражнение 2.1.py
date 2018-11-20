@@ -1,4 +1,4 @@
-def fun_fact(x):
+def fun_fact(number):
     if number == 3.0:
         return "Li-Литий"
     elif number == 17.00:
