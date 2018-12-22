@@ -15,28 +15,17 @@
 Введите число или Стоп для выхода: стоп
 Сумма: 113"""
 
-whilee True:
-    text = input("Введите число или Стоп для выхода:" )
-
-
-    здесь надо писать код
-
-
-    
-    if text == "Стоп":
-        print ("???")
-        break
-
-
-
-
-
 sum = 0
 while True:
-    text = input()
-    if text == 'stop':
+    text = input("Введите число или Стоп для выхода:")
+    if text == 'Стоп':
         break
-    sum+= int(text)
+    if text.isdigit() == True:
+        sum += int(text)
+    else:
+        print('Ошибка')
+
+print(sum)
 
 
     
