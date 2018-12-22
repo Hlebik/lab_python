@@ -7,25 +7,16 @@
 2) на основе функции map
 3) в виде генератора списка"""
 
-
 from math import sqrt
-"""sum = 0
-lst = [2,4,9,16,25]
+sum = 0
+lst = [2, 4, 9, 16, 25]
 lst_2 = []
 for x in lst:
     lst_2.append(sqrt(x))
-
-print (lst_2)"""
-
-
-
-
-"""lst = [2, 4, 9, 16, 25
-lst_2 =list(map(lambda x:sqrt(x), lst))
-print (lst_2)"""
-
-
-
-lst = [2, 4, 9, 16, 25]
-lst_2 = [sqrt(x) for x in lst]
 print(lst_2)
+
+lst_3 = list(map(lambda x: sqrt(x), lst))
+print(lst_3)
+
+lst_4 = [sqrt(x) for x in lst]
+print(lst_4)
