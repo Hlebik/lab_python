@@ -21,8 +21,6 @@ def calc(expr):
                 
     
 
-    return stack[0]
-
 print(calc("1 2 3 * + 2 -"))
 
 import doctest
