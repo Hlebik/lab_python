@@ -3,12 +3,12 @@
 цифр в числе."""
 
 
-s = '123456789'
+s = str(input("Введите число с клавиатуры: "))
 total = 0
 for i in range(len(s)):
-    if int(s[i])%2 == 0:
+    if int(s[i]) % 2 == 0:
         continue
     total = total + int(s[i])
 
 
-print ("сумма цифр:", total)
+print("сумма цифр:", total)
