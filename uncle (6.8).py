@@ -12,10 +12,14 @@ print(' '.join(new_words))"""
 
 
 words = s.split()
-new_words = []
-for word in words:
-    if not word.startswith('м'):
-        new_words.append(word)
-print(' '.join(new_words))
+nums = []
 
+for word in words:
+    tmp = word.replace('.', '')
+    if tmp.isdigit():
+        nums.append(float(word))
+
+print("Количество:", len(nums))
+print("Сумма:", sum(nums))
+print("Макс:", max(nums))
     
