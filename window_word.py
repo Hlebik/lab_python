@@ -4,7 +4,7 @@ import random
 
 def click():
     try:
-        if entry.get() == word_ran[b]:
+        if entry.get().lower() == word_ran[b]:
             label3.config (text = 'Вы угадали слово')
         else:
             label3.config (text = 'попробуй снова')
