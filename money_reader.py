@@ -24,4 +24,3 @@ for key, value in money.items():
 
 print(reg, max_value)
 
-
