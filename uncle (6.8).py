@@ -6,20 +6,9 @@ s = """Мой дядя самых честных правил, Когда не �
 начинающиеся на букву м.
 Результат вывести на экран в виде строки."""
 
-"""words  = s.split()
-new_words = [word for word in words if not word.startswith('м')]
-print(' '.join(new_words))"""
-
-
 words = s.split()
-nums = []
-
+new_words = []
 for word in words:
-    tmp = word.replace('.', '')
-    if tmp.isdigit():
-        nums.append(float(word))
-
-print("Количество:", len(nums))
-print("Сумма:", sum(nums))
-print("Макс:", max(nums))
-    
+    if not word.startswith('м'):
+        new_words.append(word)
+print(' '.join(new_words))
