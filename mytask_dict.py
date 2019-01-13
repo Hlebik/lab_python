@@ -17,5 +17,5 @@ while True:
                 print(f"{i}: {zadaniya[i]}")
     elif num == 3:
         print("Выход.")
-        break
+        break 
 
