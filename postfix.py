@@ -1,8 +1,7 @@
 # postfix_test.py
 def calc(expr):
     stack = []
-    for x in expr.split():
-        print (stack)       
+    for x in expr.split():      
         if x.isdigit():
             stack.append(x)
         else:
@@ -21,7 +20,10 @@ def calc(expr):
                 
     
 
+    return stack[0]
+
 print(calc("1 2 3 * + 2 -"))
 
 import doctest
 doctest.testmod()
+
