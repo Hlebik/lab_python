@@ -36,7 +36,7 @@ while True:
         for zadaniya in all_tasks:
             for i in zadaniya.keys():
                 print(f"{i}: {zadaniya[i]}")
-    elif num == 3:
+    elif num == 3: 
         print("Выход.")
         writer(filename, all_tasks)
         break
