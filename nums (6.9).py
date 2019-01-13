@@ -23,6 +23,4 @@ print("Сумма:", sum(nums))
 print("Макс:", max(nums))
   
 
-
-print(nums)
             
