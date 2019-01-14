@@ -9,9 +9,9 @@ max_sums = []
 max_sums = sums[0]
 
 for i in sums:
-    if sum(sums[i])>sum(max_sums):
-        max_sums=sums[i]
+    if sum(i)>sum(max_sums):
+        max_sums=i
     
-print(sums)
 
+print(max_sums)
         
